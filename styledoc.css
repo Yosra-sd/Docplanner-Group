@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(252, 251, 249);
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    font-family: 'Roboto';
+    font-size: 22px;
+    
+}
+
+.icon {
+    width: 268px;
+    height: 33px;  
+}
+
+.navb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 18%;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+.navb a {
+    color: #807e7e;
+}
+
+.grid1 {
+    margin: 50px 300px 60px;
+    display: grid;
+    grid-template-rows: 20% 20% 60%;
+}
+
+.icon2 {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 40px;
+    height: 40px;
+}
+
+.grid1 h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-family: 'Work Sans';
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: -.3px;
+    margin: 1em 0;
+}
+
+.prg {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 -10px;
+}
+
+.col-1 {
+    float: left;
+    min-height: 1px;
+    padding: 10px;
+}
+
+.col-1 p {
+    margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #747474;
+}
+
+.col-2 {
+    float: left;
+    min-height: 1px;
+    padding: 10px;
+}
+
+.col-2 p {
+    margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #747474;
+}
+
+.services {
+    max-width: 1015px;
+    padding: 0 20px;
+    position: relative;
+    margin: 3.75rem auto 2.5rem;
+    
+
+}
+
+.grid_elements {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+article {
+    margin: 10px;
+}
+
+.patient {
+    background: #00ccb1;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.doctors {
+    background: #3d83df;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.clinics {
+    background: #1b2734;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.grid_elements h1 {
+    font-size: 1.625em;
+    font-weight: lighter;
+    color: #fff;
+    margin: .3em 0;
+    letter-spacing: -.3px;
+    font-family: 'Work Sans';
+}
+
+.grid_elements h2 {
+    font-size: 1.3em;
+    font-weight: 100;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    letter-spacing: -.3px;
+    font-family: 'Work Sans';
+}
+
+.select {
+    margin-bottom: 35px;
+    display: inline-block;
+    background : none;
+    border: 0;
+    font-family: 'Roboto';
+}
+
+#domain-switcher {
+    background: none;
+    font-family: 'Roboto';
+    color: #fff;
+    font-weight: 400;
+    border: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.stats {
+    background: #e5faf8;
+    padding: 1.875em 0 .625em;
+    margin: 3.125rem auto 5.5rem;
+    
+}
+
+.grid_stats {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;   
+}
+
+.title {
+    margin-top: 2em;
+}
+
+.title h1 {
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    font-size: 2.125rem;
+    color: #00b39b; 
+}
+
+.title p {
+    max-width: 415px;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+    margin: 20px 0;
+    font-family: 'Roboto';
+    color: #747474;
+}
+
+.elements {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50% ;
+}
+
+.colop {
+    padding: 10px;
+}
+
+.colo {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+}
+
+.colop img {
+    width: 35px;
+    height: 40px;
+}
